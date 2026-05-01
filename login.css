@@ -1,1 +1,84 @@
+body {
+background-color:aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+color:  aliceblue;
+margin: 20px;
+}
 
+.header {
+display: flex;
+justify-content: center;
+background-color: #2a2e26;
+margin: -25px;
+margin-bottom: 0px;
+}
+.c1 {
+color:#2a2e26;
+}
+.title {
+color: aliceblue;
+font-size: 40px;
+font-weight: bold;
+}
+
+
+h1{
+font-size: 40px;
+text-align: center;
+color: #2a2e26;
+}
+
+form {
+background-color: #2a2e26;
+padding: 60px;
+margin-top: 30px;
+border-radius: 60px;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+}
+.textbox {
+background-color: #393d34;
+border-color: none;
+border-radius: 5px;
+border-style: hidden;
+width: 300px;
+height:25px;
+margin-bottom: 20px;
+color: aliceblue;
+padding-left: 10px;
+outline: none;
+}
+
+.button {
+font-weight: bold;
+color:#393d34;
+font-size: 20px;
+outline: none;
+border-radius: 20px;
+border-style: hidden;
+background-color: aliceblue;
+margin-left: 100px;
+margin-top: 10px;
+padding: 10px;
+cursor: pointer;
+}
+
+.button:hover {
+transform: scale(1.1);
+}
+
+.circle, .square {
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 20px;
+}
+
+.made {
+font-weight: bold;
+margin-top: 50px;
+}
+
+ul {
+    display: block;
+}
